@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "7cdde4fc-c044-43af-8b34-78e340fa46fe",
+		"name": "imcResult",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "resultadoImc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/imcResult?peso=75&altura=1.78",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"imcResult"
+					],
+					"query": [
+						{
+							"key": "peso",
+							"value": "75"
+						},
+						{
+							"key": "altura",
+							"value": "1.78"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
